@@ -14,14 +14,6 @@ La prédiction du vainqueur d'un match se fait en utilisant les probabilités de
 4. Utilisez les fichiers de données disponibles pour entraîner le modèle ou utilisez vos propres données.
 5. Exécutez le script principal pour faire des prédictions.
 
-## Structure du projet
-
-- `data/`: Répertoire contenant les fichiers de données utilisés pour l'entraînement et les prédictions.
-- `src/`: Contient le code source principal.
-  - `main.py`: Script principal pour lancer les prédictions.
-  - `poisson_probability.py`: Implémentation des fonctions pour calculer les probabilités de Poisson.
-  - `utils.py`: Fonctions utilitaires.
-- `requirements.txt`: Liste des dépendances Python nécessaires pour exécuter le code.
 
 ## Exemple d'utilisation
 
