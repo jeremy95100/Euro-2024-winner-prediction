@@ -1,21 +1,22 @@
-# Euro 2024 Prediction
+# Euro 2024 Predictor
 
-Ce projet vise à prédire le vainqueur des matchs de l'Euro 2024 en utilisant la théorie des probabilités de Poisson. La méthode repose sur l'hypothèse que le nombre de buts marqués par chaque équipe dans un match de football peut être modélisé en utilisant une distribution de Poisson.
+This project aims to predict the winner of the Euro 2024 matches using the Poisson probability theory. The method relies on the assumption that the number of goals scored by each team in a football match can be modeled using a Poisson distribution.
 
-## Comment ça marche ?
+## How It Works?
 
-La prédiction du vainqueur d'un match se fait en utilisant les probabilités de Poisson pour estimer le nombre de buts marqués par chaque équipe. Ensuite, en comparant les estimations de buts marqués des deux équipes, on détermine la probabilité de chaque résultat possible (victoire de l'équipe à domicile, victoire de l'équipe à l'extérieur, match nul). Finalement, la probabilité d'une équipe de gagner est calculée en fonction des probabilités de chaque résultat.
+The prediction of a match winner is done by using Poisson probabilities to estimate the number of goals scored by each team. Then, by comparing the estimated goals scored by both teams, we determine the probability of each possible outcome (home team win, away team win, draw). Finally, the probability of a team winning is calculated based on the probabilities of each outcome.
 
-## Comment utiliser le code ?
+## How to Use the Code?
 
-1. Assurez-vous d'avoir Python installé sur votre système.
-2. Clonez ce dépôt sur votre machine.
-3. Installez les dépendances en exécutant `pip install -r requirements.txt`.
-4. Utilisez les fichiers de données disponibles pour entraîner le modèle ou utilisez vos propres données.
-5. Exécutez le script principal pour faire des prédictions.
+1. Make sure you have Python installed on your system.
+2. Clone this repository to your machine.
+3. Install dependencies by running `pip install -r requirements.txt`.
+4. Use the available data files to train the model or use your own data.
+5. Run the main script to make predictions.
 
 
-## Exemple d'utilisation
+## Example Usage
 
 ```bash
 python src/main.py
+
